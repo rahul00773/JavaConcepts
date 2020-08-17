@@ -2,6 +2,8 @@ package src.enums;
 
 public class Test {
 
+    public int x=0;
+
 enum Beer{
 
     FO, KF,MS
@@ -25,5 +27,5 @@ default:
     break;
 }
 }
-    
+
 }

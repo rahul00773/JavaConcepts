@@ -1,2 +1,4 @@
-package src.enums;public interface intface {
+package src.enums;
+
+public interface intface {
 }

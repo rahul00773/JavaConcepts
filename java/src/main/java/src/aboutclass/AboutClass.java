@@ -1,12 +1,23 @@
 package src.aboutclass;
-public  class AboutClass {
 
+//public
+//provate
+//protected
+// default --
+
+public class AboutClass {
+
+     
  static public int x =10;
 
  protected static int y =10;
 
  protected int z =20;
 
+ public void test(){
+
+    System.out.println("About class Test Method");
+ }
 
  public  static void main(String[] args){
 

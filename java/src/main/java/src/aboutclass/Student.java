@@ -1,6 +1,6 @@
 package src.aboutclass;
 
-public class Student {
+ class Student {
 
 
     Student(String n, int r, String g,String f){
@@ -11,6 +11,9 @@ public class Student {
     }
 
     Student(String n, int r, String g){
+
+        AboutClass  ab = new AboutClass();
+        ab.test();
 
         this.name = n;
         this.rollNo=r;

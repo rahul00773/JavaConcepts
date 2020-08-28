@@ -20,12 +20,16 @@ public class Student extends AboutClass{
 
 
         System.out.println(y);
-
+        
         System.out.println(AboutClass.x);
        
 
         Student s1 = new Student("rahul",101);
         Student s2 = new Student("kumar",102);
+    }
+
+    public void test2(){
+        test();
     }
     
 }

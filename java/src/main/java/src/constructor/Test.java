@@ -3,6 +3,9 @@ package src.constructor;
 public class Test {
 
 
+    int x = 5;
+    int y =10;
+
     public static int count=0;
 
     {
@@ -32,5 +35,5 @@ public class Test {
 
         System.out.println("number of object created : " + count);
     }
-    
+
 }

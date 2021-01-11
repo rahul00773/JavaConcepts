@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="example suite" verbose="1" thread-count="5" parallel="methods">
+  <!--<listeners>-->
+  <!--&lt;!&ndash;<listener class-name="com.paytm.core.listener.UserListener"/>&ndash;&gt;-->
+  <!--&lt;!&ndash;<listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>&ndash;&gt;-->
+  <!--<listener class-name="com.paytm.core.listener.AnnotationTransformer"/>-->
+  <!--</listeners>-->
+  <test name="sample t">
+    <classes>
+      <class name="testcases.scripts.TestBookStore">
+        <methods>
+          <include name="test"/>
+          <include name="test1"/>
+          <include name="test2"/>
+
+        </methods>
+
+
+      </class>
+      <class name="testcases.AppTest">
+
+        <methods>
+          <include name="testApp"/>
+        </methods>
+      </class>
+
+    </classes>
+  </test>
+</suite>

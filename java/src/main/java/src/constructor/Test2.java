@@ -13,7 +13,6 @@ public class Test2 {
 
     }
 
-
     static {
 
         System.out.println("static block");

@@ -1,0 +1,10 @@
+@startuml
+User -> MyApplicatio: Authentication request with JWT
+MyApplicatio -> User:Token
+User --> MyApplicatio: Get api/v1/allRequest
+MyApplicatio -->Nginx: Get all Data -- auth
+Nginx-->bankMock:
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml

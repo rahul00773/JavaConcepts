@@ -2,7 +2,7 @@ package src.instanseblock;
 
 public class Parent {
 
-    int i =10;
+    int i = 10;
 
     {
 
@@ -10,26 +10,24 @@ public class Parent {
         System.out.println("First Instance method");
     }
 
-    Parent(){
+    Parent() {
 
         System.out.println("Constructor");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Parent parent = new Parent();
         System.out.println("Main");
-        
-    }
-    public void m1()
-    {
 
-      System.out.println(j);
     }
 
-    
+    public void m1() {
 
-    int j =20;
+        System.out.println(j);
+    }
 
-    
-    
+
+    int j = 20;
+
+
 }

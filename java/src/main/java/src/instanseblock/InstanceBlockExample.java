@@ -3,7 +3,7 @@ package src.instanseblock;
 public class InstanceBlockExample {
 
 
-    int i =10;
+    int i = 10;
 
     {
 
@@ -11,20 +11,19 @@ public class InstanceBlockExample {
         System.out.println("First Instance method");
     }
 
-    InstanceBlockExample(){
+    InstanceBlockExample() {
 
         System.out.println("Constructor");
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         InstanceBlockExample instanceBlockExample = new InstanceBlockExample();
 
         System.out.println("Main");
-        
+
     }
 
-    public void m1()
-    {
+    public void m1() {
 
         System.out.println(j);
     }
@@ -33,7 +32,8 @@ public class InstanceBlockExample {
 
         System.out.println("Second Instance block");
     }
-    int j =20;
 
-    
+    int j = 20;
+
+
 }
